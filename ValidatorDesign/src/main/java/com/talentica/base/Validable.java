@@ -21,7 +21,7 @@ public interface Validable<T> {
 	void setValidator(Validator<T> validator);
 
 	/**
-	 * Validates
+	 * Validates the Object Based on Rule
 	 * 
 	 * @throws ValidationException
 	 */
